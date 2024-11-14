@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(226, 247, 247);
+    
+}
+header {
+  background-color: rgb(112, 250, 112);
+  text-align: center;
+  padding: 30px;
+  box-shadow: 15px 0px 5px rgba(5, 5, 5, 0.15);
+}
+.navbar {
+  text-align: center;
+  margin: 35px;
+  
+}
+
+.navbar a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(10, 253, 103);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+.navbar a:hover{
+    background-color: rgba(189, 187, 187, 0.5);
+    border-radius: 5px;
+}
+.navbar li {
+  display: inline-block;
+  padding: 10px 40px;
+  
+}
+.products{
+    margin: 100px;
+}
+.product-list{
+    display: flex;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.product img{
+    padding: 10px;
+    width: 100%;
+    
+}
+.card-title{
+    padding: 1rem 3rem 0rem 4rem;
+    line-height: 1.33;
+
+}
+.card-description{
+   margin: 0.7rem;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: center;
+}
+.price{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(27, 253, 84);
+    text-align: center;
+}
+footer{
+    background-color: rgb(10, 99, 10);
+    text-align: center;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
